@@ -12,11 +12,11 @@ return "your estimated download time is : " + Time.at(time).utc.strftime("%H:%M:
 
 end
 
-puts " please put file size in MB "
+puts " please do tell your file size in MB ? "
 
 size = Integer(gets.chomp).to_f
 
-puts " please do tell your internet speed in Mbps"
+puts " please do tell your internet speed in Mbps ?"
 
 speed = Integer(gets.chomp).to_f
 
