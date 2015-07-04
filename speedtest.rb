@@ -16,7 +16,7 @@ puts " please put file size in MB "
 
 size = Integer(gets.chomp).to_f
 
-puts " please tell your internet speed in mb"
+puts " please do tell your internet speed in Mbps"
 
 speed = Integer(gets.chomp).to_f
 
