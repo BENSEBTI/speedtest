@@ -8,7 +8,7 @@ time = result
 
 
 
-puts "your estimated download time is : " + Time.at(time).utc.strftime("%H:%M:%S")+ " happy dowloading :)"
+return "your estimated download time is : " + Time.at(time).utc.strftime("%H:%M:%S")+ " happy dowloading :)"
 
 end
 
